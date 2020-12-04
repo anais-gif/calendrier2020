@@ -1,0 +1,49 @@
+
+
+.style{
+    padding :60px;
+    color:black;
+    background-color:#60e67d ;
+    
+}
+.circle  {
+    width: 150px;
+    height: 150px;
+    z-index: 9;
+    background:#60e67d;
+    border-radius:20%;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    font-size: 10px;
+    
+}
+.circle:hover  {
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+a {
+  font-size:30px;
+  color: black;
+}
+
+/* .gift{
+  opacity: 0;
+  font-size: 1.1rem;
+  }
+  
+  .show{
+  opacity: 100% !important;
+  } */
+ 
+
+    
+
+
+
+
+
+    
