@@ -1,16 +1,23 @@
+#body{
+ 
+  background-image: url('../IMG/noel1.jpg');
+  background-repeat:no-repeat;
+  
+}
 
 
 .style{
-    padding :60px;
-    color:black;
-    background-color:#60e67d ;
+    padding :20px;
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    
     
 }
 .circle  {
     width: 150px;
     height: 150px;
     z-index: 9;
-    background:#60e67d;
+    background:#e4ebe5;
     border-radius:20%;
     display: grid;
     align-items: center;
@@ -21,10 +28,23 @@
     font-size: 10px;
     
 }
+#newdiv{
+  width: 200px;
+  height: 200px;
+  z-index: 9;
+  background:#8a1b1b;
+  border-radius:20%;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  
+}
 .circle:hover  {
   -webkit-transform: rotate(-15deg);
   transform: rotate(-15deg);
 }
+
 a {
   font-size:30px;
   color: black;

@@ -10,7 +10,7 @@ circle.id = 'circle'+box[randomNumber];
 day= box[randomNumber];
 box.splice(randomNumber, 1);
 circle.className = "circle";
-circle.innerHTML='<a href="#"  onclick="myFunction() ">'+day+'</a>';
+circle.innerHTML='<a href="#" onclick="myFunction()">'+day+'</a>';
 document.getElementById("calendrier").appendChild(circle);
 console.log( circle.id)
 
@@ -19,8 +19,10 @@ myFonction(day)
  function myFonction(i){
     
 circle.onclick = function (){   
-
-    confirm(gift[i]);
+   
+    circle.innerHTML='<p href="#" onclick="myFunction()">'+gift[i]+'</p>';
+    console.log(newDiv);
+   
 }
 }
 var gift=[
